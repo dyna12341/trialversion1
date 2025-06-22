@@ -14,10 +14,11 @@
 <body>
     <header class="header">
         <nav class="navbar">
-            <a href="index.html" class="nav-logo">
-                <img src="https://via.placeholder.com/150x50/2A6F97/FFFFFF?text=Bizgent" alt="Logo Bizgent"
-                    class="logo-img">
-                Bizgent
+            <a href="index.html" class="nav-logo center-navbar-logo">
+                <span class="logo-circle">
+                    <img src="assets/icon.png" alt="Bizgent Solutions" class="logo-img" />
+                </span>
+                <span class="bizgent-text">Bizgent Solutions</span>
             </a>
             <ul class="nav-menu">
                 <li class="nav-item"><a href="index.html" class="nav-link"><i class="fas fa-home"></i> Acasă</a></li>
@@ -46,34 +47,213 @@
     </header>
 
     <main>
-        <section class="services-section">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-content">
+                <div class="hero-badge animate fade-in">
+                    <i class="fas fa-sparkles"></i> Serviciile Noastre
+                </div>
+                <h1 class="hero-title animate fade-in" style="animation-delay: 0.1s;">Soluții AI și Automatizare</h1>
+                <p class="hero-subtitle animate fade-in" style="animation-delay: 0.2s;">
+                    De la consultanță Airtable la automatizarea completă a proceselor, oferim soluții care stimulează creșterea și eficiența.
+                </p>
+                <div class="hero-cta-text animate fade-in" style="animation-delay: 0.3s;">
+                    <a href="contact.html" class="cta-button">Programează o Consultație Gratuită</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Main Services Section -->
+        <section class="services-overview">
             <h2 class="section-title animate fade-in">Serviciile Noastre</h2>
-            <p class="section-subtitle animate fade-in" style="animation-delay: 0.2s;">Oferim soluții inovatoare pentru
-                a eficientiza operațiunile afacerii dvs. și a stimula creșterea.</p>
-            <div class="services-grid">
-                <div class="service-card animate slide-in-up">
-                    <div class="service-icon"><i class="fas fa-robot"></i></div>
-                    <h3>Automatizarea Proceselor</h3>
-                    <p>Analizăm fluxurile de lucru existente și implementăm automatizare inteligentă pentru a elimina
-                        sarcinile repetitive, a reduce erorile umane și a permite echipei dvs. să se concentreze pe
-                        activități cu valoare ridicată. De la introducerea datelor până la luarea deciziilor complexe,
-                        construim sisteme robuste care funcționează 24/7.</p>
+            
+            <div class="services-grid-large">
+                <div class="service-card-large animate slide-in-up">
+                    <div class="service-icon-large">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>🔧 Automatizarea Proceselor</h3>
+                    <p>Eliminăm sarcinile repetitive care consumă timp. Automatizăm pașii esențiali din activitățile tale zilnice, reducând erorile și crescând viteza de lucru. Totul funcționează 24/7, fără pauze și fără stres.</p>
                 </div>
-                <div class="service-card animate slide-in-up" style="animation-delay: 0.2s;">
-                    <div class="service-icon"><i class="fas fa-brain"></i></div>
-                    <h3>Analiză Bazată pe AI</h3>
-                    <p>Deblocați puterea datelor dvs. Soluțiile noastre de analiză bazate pe AI oferă informații
-                        detaliate despre performanța afacerii dvs., comportamentul clienților și tendințele pieței.
-                        Creăm tablouri de bord personalizate și modele predictive pentru a vă ajuta să luați decizii mai
-                        inteligente, bazate pe date.</p>
+
+                <div class="service-card-large animate slide-in-up" style="animation-delay: 0.2s;">
+                    <div class="service-icon-large">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>🧠 Soluții AI Personalizate</h3>
+                    <p>Construim soluții care se pliază perfect pe activitatea ta. De la recomandări inteligente până la analiză de date și luare automată de decizii, AI-ul nostru învață din ceea ce faci și devine tot mai precis.</p>
                 </div>
-                <div class="service-card animate slide-in-up" style="animation-delay: 0.4s;">
-                    <div class="service-icon"><i class="fas fa-code-branch"></i></div>
+
+                <div class="service-card-large animate slide-in-up" style="animation-delay: 0.4s;">
+                    <div class="service-icon-large">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>📈 Automatizarea Vânzărilor</h3>
+                    <p>Ajutăm echipele de vânzări să vândă mai mult, cu mai puțin efort. Automatizăm răspunsurile, urmărim lead-urile și generăm notificări inteligente, astfel încât nimeni să nu piardă nicio oportunitate.</p>
+                </div>
+
+                <div class="service-card-large animate slide-in-up" style="animation-delay: 0.6s;">
+                    <div class="service-icon-large">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <h3>📬 Automatizarea Marketingului</h3>
+                    <p>Trimitem mesajele potrivite la momentul potrivit. Automatizăm emailurile, personalizăm campaniile și urmărim rezultatele pentru ca tu să știi exact ce funcționează.</p>
+                </div>
+
+                <div class="service-card-large animate slide-in-up" style="animation-delay: 0.8s;">
+                    <div class="service-icon-large">
+                        <i class="fas fa-puzzle-piece"></i>
+                    </div>
+                    <h3>🔄 Integrare Software & Sisteme</h3>
+                    <p>Conectăm CRM-ul, platformele de e-commerce, instrumentele de marketing și orice alt software într-un singur sistem fluent. Fără duplicate. Fără haos.</p>
+                </div>
+
+                <div class="service-card-large animate slide-in-up" style="animation-delay: 1.0s;">
+                    <div class="service-icon-large">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>🧾 Analiză de Date și Rapoarte</h3>
+                    <p>Punem în mâinile tale panouri de control clare și simple. Vezi în timp real ce se întâmplă în afacerea ta. Obții rapoarte automate și recomandări care te ajută să iei decizii corecte.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Benefits Section -->
+        <section class="benefits-section">
+            <h2 class="section-title animate fade-in">Ce Primești Concret</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card animate slide-in-up">
+                    <div class="benefit-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Timp Economisit</h3>
+                    <p>Până la 40% în primele luni de implementare</p>
+                </div>
+
+                <div class="benefit-card animate slide-in-up" style="animation-delay: 0.2s;">
+                    <div class="benefit-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Reducerea Erorilor</h3>
+                    <p>Reducere semnificativă a erorilor umane</p>
+                </div>
+
+                <div class="benefit-card animate slide-in-up" style="animation-delay: 0.4s;">
+                    <div class="benefit-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Implementare Rapidă</h3>
+                    <p>Automatizări gata de folosit în mai puțin de 30 de zile</p>
+                </div>
+
+                <div class="benefit-card animate slide-in-up" style="animation-delay: 0.6s;">
+                    <div class="benefit-icon">
+                        <i class="fas fa-expand-arrows-alt"></i>
+                    </div>
+                    <h3>Sisteme Scalabile</h3>
+                    <p>Fără costuri ascunse, cresc cu afacerea ta</p>
+                </div>
+
+                <div class="benefit-card animate slide-in-up" style="animation-delay: 0.8s;">
+                    <div class="benefit-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>Suport Real</h3>
+                    <p>Oameni care vorbesc pe înțelesul tău</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us Section -->
+        <section class="value-section">
+            <h2 class="section-title animate fade-in">De Ce să Alegi Bizgent Solutions</h2>
+            <div class="value-grid">
+                <div class="value-card animate slide-in-up">
+                    <div class="value-icon">
+                        <i class="fas fa-customize"></i>
+                    </div>
                     <h3>Soluții Personalizate</h3>
-                    <p>Aveți o provocare unică? Ne specializăm în dezvoltarea de soluții personalizate de AI și
-                        automatizare adaptate nevoilor dvs. specifice. Echipa noastră colaborează îndeaproape cu dvs.
-                        pentru a proiecta, construi și implementa sisteme care rezolvă cele mai complexe probleme și vă
-                        oferă un avantaj competitiv.</p>
+                    <p>Ne adaptăm exact la ce ai nevoie – nu oferim soluții "copiate"</p>
+                </div>
+
+                <div class="value-card animate slide-in-up" style="animation-delay: 0.2s;">
+                    <div class="value-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Experiență Locală</h3>
+                    <p>Avem experiență în companii din Moldova – înțelegem contextul local</p>
+                </div>
+
+                <div class="value-card animate slide-in-up" style="animation-delay: 0.4s;">
+                    <div class="value-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Parteneri Activi</h3>
+                    <p>Ne implicăm activ – suntem parteneri, nu doar furnizori de software</p>
+                </div>
+
+                <div class="value-card animate slide-in-up" style="animation-delay: 0.6s;">
+                    <div class="value-icon">
+                        <i class="fas fa-tachometer-alt"></i>
+                    </div>
+                    <h3>Rezultate Rapide</h3>
+                    <p>Livrăm rezultate rapide – nu promisiuni vagi</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Consultation Section -->
+        <section class="cta-section">
+            <div class="cta-content">
+                <h2 class="section-title animate fade-in">Consultanță Gratuită – Fără Obligații</h2>
+                <p class="section-subtitle animate fade-in" style="animation-delay: 0.2s;">
+                    Vrei să afli ce poate face AI-ul pentru afacerea ta? În 30 de minute primești un diagnostic clar și soluții aplicabile – fără riscuri, fără costuri ascunse.
+                </p>
+                
+                <div class="consultation-features">
+                    <div class="consultation-feature">
+                        <div class="feature-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3>🔍 Diagnostic Personalizat al Proceselor</h3>
+                            <p>Discutăm concret despre modul în care lucrați acum și identificăm minim 3 puncte critice unde pierdeți timp, bani sau clienți. Nu presupunem — întrebăm, ascultăm și analizăm.</p>
+                        </div>
+                    </div>
+
+                    <div class="consultation-feature">
+                        <div class="feature-icon">
+                            <i class="fas fa-calculator"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3>📊 Simulare de Economii și Impact (ROI Realist)</h3>
+                            <p>Pe baza datelor dvs., estimăm câți bani și cât timp puteți economisi cu automatizările potrivite. Nu promitem "magie AI", ci un ROI argumentat, în cifre clare.</p>
+                        </div>
+                    </div>
+
+                    <div class="consultation-feature">
+                        <div class="feature-icon">
+                            <i class="fas fa-road"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3>🗺 Plan Rapid de Acțiune</h3>
+                            <p>Vă oferim un ghid scurt, aplicabil imediat, cu ce puteți face în 7, 30 și 90 de zile — fie cu noi, fie cu echipa dvs. internă. Totul adaptat la prioritățile reale ale afacerii.</p>
+                        </div>
+                    </div>
+
+                    <div class="consultation-feature">
+                        <div class="feature-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3>🛠 Tehnologii Recomandate pe Cazul Dvs.</h3>
+                            <p>Nu oferim "tooluri la modă", ci vă spunem exact ce funcționează în Moldova, în funcție de ce buget aveți, ce echipă aveți și ce așteptări aveți. Clar și fără jargon.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cta-buttons">
+                    <a href="contact-ro.html" class="cta-button primary">Programează Consultația Gratuită</a>
                 </div>
             </div>
         </section>
@@ -100,8 +280,6 @@
                     <li><a href="services-ro.html">Servicii</a></li>
                     <li><a href="pricing-ro.html">Prețuri</a></li>
                     <li><a href="about-ro.html">Despre Noi</a></li>
-                    <li><a href="resources-ro.html">Blog</a></li>
-                    <li><a href="resources-ro.html">Ghiduri</a></li>
                     <li><a href="contact-ro.html">Contact</a></li>
                     <li><a href="privacy-policy-ro.html">Politica de Confidențialitate</a></li>
                     <li><a href="#">Termeni & Condiții</a></li>
@@ -110,15 +288,21 @@
 
             <div class="footer-section">
                 <h4>Contact</h4>
-                <p>hello@bizgent.com</p>
+                <p>contact@bizgent.com</p>
                 
-                <div class="newsletter">
-                    <h4>Primiți sfaturi gratuite AI & Automatizare - nu trimitem spam</h4>
-                    <form class="newsletter-form">
-                        <input type="email" placeholder="Email (Obligatoriu)" required>
-                        <button type="submit">Trimite</button>
-                    </form>
-                    <p class="form-note">Acest site este protejat de reCAPTCHA și Politica de Confidențialitate Google și Termenii de Serviciu se aplică.</p>
+                <div class="social-links">
+                    <h4 class="gradient-text">Urmăriți-ne</h4>
+                    <div class="social-icons">
+                        <a href="https://linkedin.com/company/bizgent" target="_blank" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://instagram.com/bizgent" target="_blank" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://facebook.com/bizgent" target="_blank" aria-label="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -130,6 +314,176 @@
 
     <script src="js/script.js"></script>
     <script src="lang-fix.js"></script>
+    <script>
+    (function() {
+        const operationsScrollbar = document.getElementById('operations-scrollbar');
+        const leftArrow = document.getElementById('operation-scroll-left');
+        const rightArrow = document.getElementById('operation-scroll-right');
+        const operationCard = operationsScrollbar ? operationsScrollbar.querySelector('.operation-card') : null;
+        let scrollAmount = operationCard ? operationCard.offsetWidth + 32 : 320;
+        
+        if (leftArrow && rightArrow && operationsScrollbar) {
+            leftArrow.addEventListener('click', () => {
+                operationsScrollbar.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+            });
+            rightArrow.addEventListener('click', () => {
+                operationsScrollbar.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+            });
+        }
+    })();
+    </script>
+    <style>
+    /* Consultation Features Styles */
+    .consultation-features {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        margin: 3rem 0;
+    }
+
+    .consultation-feature {
+        display: flex;
+        align-items: flex-start;
+        gap: 1.5rem;
+        padding: 2rem;
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.9) 0%, rgba(202, 240, 248, 0.2) 100%);
+        border-radius: var(--border-radius);
+        box-shadow: var(--box-shadow);
+        transition: var(--transition);
+        border: 1px solid rgba(0, 119, 182, 0.1);
+    }
+
+    .consultation-feature:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 40px rgba(0, 119, 182, 0.15);
+    }
+
+    .consultation-feature .feature-icon {
+        flex-shrink: 0;
+        width: 60px;
+        height: 60px;
+        background: linear-gradient(135deg, var(--primary-light) 0%, var(--accent-color) 100%);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: var(--transition);
+    }
+
+    .consultation-feature:hover .feature-icon {
+        transform: scale(1.1);
+    }
+
+    .consultation-feature .feature-icon i {
+        font-size: 1.5rem;
+        color: white;
+    }
+
+    .consultation-feature .feature-content h3 {
+        color: var(--primary-color);
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+    }
+
+    .consultation-feature .feature-content p {
+        color: var(--light-text);
+        line-height: 1.6;
+        font-size: 1rem;
+    }
+
+    /* CTA Section Styles */
+    .cta-section {
+        padding: 4rem 5%;
+        background: linear-gradient(135deg, rgba(202, 240, 248, 0.3) 0%, rgba(255, 255, 255, 0.8) 100%);
+        margin: 3rem 0;
+    }
+
+    .cta-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .cta-buttons {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        margin-top: 3rem;
+        flex-wrap: wrap;
+    }
+
+    .cta-button.primary {
+        background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-light) 100%);
+        color: white;
+        padding: 1rem 2rem;
+        border-radius: 2rem;
+        text-decoration: none;
+        font-weight: 600;
+        transition: var(--transition);
+        box-shadow: 0 4px 15px rgba(0, 119, 182, 0.3);
+    }
+
+    .cta-button.primary:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(0, 119, 182, 0.4);
+    }
+
+    .cta-button.secondary {
+        background: transparent;
+        color: var(--primary-color);
+        padding: 1rem 2rem;
+        border-radius: 2rem;
+        text-decoration: none;
+        font-weight: 600;
+        transition: var(--transition);
+        border: 2px solid var(--primary-color);
+    }
+
+    .cta-button.secondary:hover {
+        background: var(--primary-color);
+        color: white;
+        transform: translateY(-2px);
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+        .consultation-feature {
+            flex-direction: column;
+            text-align: center;
+            gap: 1rem;
+        }
+
+        .consultation-feature .feature-icon {
+            margin: 0 auto;
+        }
+
+        .cta-buttons {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .cta-button {
+            width: 100%;
+            max-width: 300px;
+            text-align: center;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .consultation-feature {
+            padding: 1.5rem;
+        }
+
+        .consultation-feature .feature-content h3 {
+            font-size: 1.1rem;
+        }
+
+        .consultation-feature .feature-content p {
+            font-size: 0.9rem;
+        }
+    }
+    </style>
     <a id="back-to-top" aria-label="Înapoi sus"><i class="fas fa-arrow-up"></i></a>
 </body>
 

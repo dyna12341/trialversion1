@@ -14,10 +14,11 @@
 <body>
     <header class="header">
         <nav class="navbar">
-            <a href="index-en.html" class="nav-logo">
-                <img src="https://via.placeholder.com/150x50/2A6F97/FFFFFF?text=Bizgent" alt="Bizgent Logo"
-                    class="logo-img">
-                Bizgent
+            <a href="index-en.html" class="nav-logo center-navbar-logo">
+                <span class="logo-circle">
+                    <img src="assets/icon.png" alt="Bizgent Solutions" class="logo-img" />
+                </span>
+                <span class="bizgent-text">Bizgent Solutions</span>
             </a>
             <ul class="nav-menu">
                 <li class="nav-item"><a href="index-en.html" class="nav-link"><i class="fas fa-home"></i> Home</a></li>
@@ -46,31 +47,213 @@
     </header>
 
     <main>
-        <section class="services-section">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-content">
+                <div class="hero-badge animate fade-in">
+                    <i class="fas fa-sparkles"></i> Our Services
+                </div>
+                <h1 class="hero-title animate fade-in" style="animation-delay: 0.1s;">AI & Automation Solutions</h1>
+                <p class="hero-subtitle animate fade-in" style="animation-delay: 0.2s;">
+                    From Airtable consulting to end-to-end process automation, we provide solutions that drive growth and efficiency.
+                </p>
+                <div class="hero-cta-text animate fade-in" style="animation-delay: 0.3s;">
+                    <a href="contact.html" class="cta-button">Schedule a Free Consultation</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Main Services Section -->
+        <section class="services-overview">
             <h2 class="section-title animate fade-in">Our Services</h2>
-            <p class="section-subtitle animate fade-in" style="animation-delay: 0.2s;">We provide innovative solutions
-                to streamline your business operations and drive growth.</p>
-            <div class="services-grid">
-                <div class="service-card animate slide-in-up">
-                    <div class="service-icon"><i class="fas fa-robot"></i></div>
-                    <h3>Process Automation</h3>
-                    <p>We analyze your existing workflows and implement intelligent automation to eliminate repetitive
-                        tasks, reduce human error, and free up your team to focus on high-value activities. From data
-                        entry to complex decision-making, we build robust systems that work 24/7.</p>
+            
+            <div class="services-grid-large">
+                <div class="service-card-large animate slide-in-up">
+                    <div class="service-icon-large">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>🔧 Process Automation</h3>
+                    <p>We eliminate time-consuming repetitive tasks. We automate essential steps in your daily activities, reducing errors and increasing work speed. Everything works 24/7, without breaks and without stress.</p>
                 </div>
-                <div class="service-card animate slide-in-up" style="animation-delay: 0.2s;">
-                    <div class="service-icon"><i class="fas fa-brain"></i></div>
-                    <h3>AI-Powered Analytics</h3>
-                    <p>Unlock the power of your data. Our AI-driven analytics solutions provide deep insights into your
-                        business performance, customer behavior, and market trends. We create custom dashboards and
-                        predictive models to help you make smarter, data-informed decisions.</p>
+
+                <div class="service-card-large animate slide-in-up" style="animation-delay: 0.2s;">
+                    <div class="service-icon-large">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>🧠 Customized AI Solutions</h3>
+                    <p>We build solutions that perfectly adapt to your activity. From intelligent recommendations to data analysis and automated decision-making, our AI learns from what you do and becomes increasingly accurate.</p>
                 </div>
-                <div class="service-card animate slide-in-up" style="animation-delay: 0.4s;">
-                    <div class="service-icon"><i class="fas fa-code-branch"></i></div>
-                    <h3>Custom Solutions</h3>
-                    <p>Have a unique challenge? We specialize in developing bespoke AI and automation solutions tailored
-                        to your specific needs. Our team works closely with you to design, build, and deploy systems
-                        that solve your most complex problems and provide a competitive edge.</p>
+
+                <div class="service-card-large animate slide-in-up" style="animation-delay: 0.4s;">
+                    <div class="service-icon-large">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>📈 Sales Automation</h3>
+                    <p>We help sales teams sell more with less effort. We automate responses, track leads, and generate intelligent notifications so no one misses any opportunity.</p>
+                </div>
+
+                <div class="service-card-large animate slide-in-up" style="animation-delay: 0.6s;">
+                    <div class="service-icon-large">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <h3>📬 Marketing Automation</h3>
+                    <p>We send the right messages at the right time. We automate emails, personalize campaigns, and track results so you know exactly what works.</p>
+                </div>
+
+                <div class="service-card-large animate slide-in-up" style="animation-delay: 0.8s;">
+                    <div class="service-icon-large">
+                        <i class="fas fa-puzzle-piece"></i>
+                    </div>
+                    <h3>🔄 Software & System Integration</h3>
+                    <p>We connect your CRM, e-commerce platforms, marketing tools, and any other software into one fluent system. No duplicates. No chaos.</p>
+                </div>
+
+                <div class="service-card-large animate slide-in-up" style="animation-delay: 1.0s;">
+                    <div class="service-icon-large">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>🧾 Data Analysis & Reports</h3>
+                    <p>We put clear and simple dashboards in your hands. See in real-time what's happening in your business. Get automated reports and recommendations that help you make the right decisions.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Benefits Section -->
+        <section class="benefits-section">
+            <h2 class="section-title animate fade-in">What You Get Specifically</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card animate slide-in-up">
+                    <div class="benefit-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Time Saved</h3>
+                    <p>Up to 40% in the first months of implementation</p>
+                </div>
+
+                <div class="benefit-card animate slide-in-up" style="animation-delay: 0.2s;">
+                    <div class="benefit-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Error Reduction</h3>
+                    <p>Significant reduction in human errors</p>
+                </div>
+
+                <div class="benefit-card animate slide-in-up" style="animation-delay: 0.4s;">
+                    <div class="benefit-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Rapid Implementation</h3>
+                    <p>Automations ready to use in less than 30 days</p>
+                </div>
+
+                <div class="benefit-card animate slide-in-up" style="animation-delay: 0.6s;">
+                    <div class="benefit-icon">
+                        <i class="fas fa-expand-arrows-alt"></i>
+                    </div>
+                    <h3>Scalable Systems</h3>
+                    <p>No hidden costs, grow with your business</p>
+                </div>
+
+                <div class="benefit-card animate slide-in-up" style="animation-delay: 0.8s;">
+                    <div class="benefit-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>Real Support</h3>
+                    <p>People who speak your language</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us Section -->
+        <section class="value-section">
+            <h2 class="section-title animate fade-in">Why Choose Bizgent Solutions</h2>
+            <div class="value-grid">
+                <div class="value-card animate slide-in-up">
+                    <div class="value-icon">
+                        <i class="fas fa-customize"></i>
+                    </div>
+                    <h3>Customized Solutions</h3>
+                    <p>We adapt exactly to what you need – we don't offer "copied" solutions</p>
+                </div>
+
+                <div class="value-card animate slide-in-up" style="animation-delay: 0.2s;">
+                    <div class="value-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Local Experience</h3>
+                    <p>We have experience with companies from Moldova – we understand the local context</p>
+                </div>
+
+                <div class="value-card animate slide-in-up" style="animation-delay: 0.4s;">
+                    <div class="value-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Active Partners</h3>
+                    <p>We get actively involved – we're partners, not just software providers</p>
+                </div>
+
+                <div class="value-card animate slide-in-up" style="animation-delay: 0.6s;">
+                    <div class="value-icon">
+                        <i class="fas fa-tachometer-alt"></i>
+                    </div>
+                    <h3>Fast Results</h3>
+                    <p>We deliver fast results – no vague promises</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Consultation Section -->
+        <section class="cta-section">
+            <div class="cta-content">
+                <h2 class="section-title animate fade-in">Free Consultation – No Obligations</h2>
+                <p class="section-subtitle animate fade-in" style="animation-delay: 0.2s;">
+                    Want to find out what AI can do for your business? In 30 minutes you get a clear diagnosis and applicable solutions – no risks, no hidden costs.
+                </p>
+                
+                <div class="consultation-features">
+                    <div class="consultation-feature">
+                        <div class="feature-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3>🔍 Personalized Process Diagnosis</h3>
+                            <p>We discuss concretely about how you work now and identify at least 3 critical points where you lose time, money, or customers. We don't assume — we ask, listen, and analyze.</p>
+                        </div>
+                    </div>
+
+                    <div class="consultation-feature">
+                        <div class="feature-icon">
+                            <i class="fas fa-calculator"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3>📊 Savings Simulation and Impact (Realistic ROI)</h3>
+                            <p>Based on your data, we estimate how much money and time you can save with the right automations. We don't promise "AI magic," but a reasoned ROI in clear numbers.</p>
+                        </div>
+                    </div>
+
+                    <div class="consultation-feature">
+                        <div class="feature-icon">
+                            <i class="fas fa-road"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3>🗺 Rapid Action Plan</h3>
+                            <p>We provide you with a short, immediately applicable guide with what you can do in 7, 30, and 90 days — either with us or with your internal team. Everything adapted to the real priorities of your business.</p>
+                        </div>
+                    </div>
+
+                    <div class="consultation-feature">
+                        <div class="feature-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <div class="feature-content">
+                            <h3>🛠 Recommended Technologies for Your Case</h3>
+                            <p>We don't offer "trendy tools," but tell you exactly what works in Moldova, depending on what budget you have, what team you have, and what expectations you have. Clear and without jargon.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cta-buttons">
+                    <a href="contact.html" class="cta-button primary">Schedule Free Consultation</a>
                 </div>
             </div>
         </section>
@@ -97,8 +280,6 @@
                     <li><a href="services.html">Services</a></li>
                     <li><a href="pricing.html">Pricing</a></li>
                     <li><a href="about.html">About Us</a></li>
-                    <li><a href="resources.html">Blog</a></li>
-                    <li><a href="resources.html">Guides</a></li>
                     <li><a href="contact.html">Contact</a></li>
                     <li><a href="privacy-policy.html">Privacy Policy</a></li>
                     <li><a href="#">Terms & Conditions</a></li>
@@ -107,15 +288,21 @@
 
             <div class="footer-section">
                 <h4>Contact</h4>
-                <p>hello@bizgent.com</p>
+                <p>contact@bizgent.com</p>
                 
-                <div class="newsletter">
-                    <h4>Receive free AI & Automation tips - we never spam</h4>
-                    <form class="newsletter-form">
-                        <input type="email" placeholder="Email (Required)" required>
-                        <button type="submit">Submit</button>
-                    </form>
-                    <p class="form-note">This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</p>
+                <div class="social-links">
+                    <h4 class="gradient-text">Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="https://linkedin.com/company/bizgent" target="_blank" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://instagram.com/bizgent" target="_blank" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://facebook.com/bizgent" target="_blank" aria-label="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -127,6 +314,176 @@
 
     <script src="js/script.js"></script>
     <script src="lang-fix.js"></script>
+    <script>
+    (function() {
+        const operationsScrollbar = document.getElementById('operations-scrollbar');
+        const leftArrow = document.getElementById('operation-scroll-left');
+        const rightArrow = document.getElementById('operation-scroll-right');
+        const operationCard = operationsScrollbar ? operationsScrollbar.querySelector('.operation-card') : null;
+        let scrollAmount = operationCard ? operationCard.offsetWidth + 32 : 320; // 32px gap
+        
+        if (leftArrow && rightArrow && operationsScrollbar) {
+            leftArrow.addEventListener('click', () => {
+                operationsScrollbar.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+            });
+            rightArrow.addEventListener('click', () => {
+                operationsScrollbar.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+            });
+        }
+    })();
+    </script>
+    <style>
+    /* Consultation Features Styles */
+    .consultation-features {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        margin: 3rem 0;
+    }
+
+    .consultation-feature {
+        display: flex;
+        align-items: flex-start;
+        gap: 1.5rem;
+        padding: 2rem;
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.9) 0%, rgba(202, 240, 248, 0.2) 100%);
+        border-radius: var(--border-radius);
+        box-shadow: var(--box-shadow);
+        transition: var(--transition);
+        border: 1px solid rgba(0, 119, 182, 0.1);
+    }
+
+    .consultation-feature:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 40px rgba(0, 119, 182, 0.15);
+    }
+
+    .consultation-feature .feature-icon {
+        flex-shrink: 0;
+        width: 60px;
+        height: 60px;
+        background: linear-gradient(135deg, var(--primary-light) 0%, var(--accent-color) 100%);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: var(--transition);
+    }
+
+    .consultation-feature:hover .feature-icon {
+        transform: scale(1.1);
+    }
+
+    .consultation-feature .feature-icon i {
+        font-size: 1.5rem;
+        color: white;
+    }
+
+    .consultation-feature .feature-content h3 {
+        color: var(--primary-color);
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+    }
+
+    .consultation-feature .feature-content p {
+        color: var(--light-text);
+        line-height: 1.6;
+        font-size: 1rem;
+    }
+
+    /* CTA Section Styles */
+    .cta-section {
+        padding: 4rem 5%;
+        background: linear-gradient(135deg, rgba(202, 240, 248, 0.3) 0%, rgba(255, 255, 255, 0.8) 100%);
+        margin: 3rem 0;
+    }
+
+    .cta-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .cta-buttons {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        margin-top: 3rem;
+        flex-wrap: wrap;
+    }
+
+    .cta-button.primary {
+        background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-light) 100%);
+        color: white;
+        padding: 1rem 2rem;
+        border-radius: 2rem;
+        text-decoration: none;
+        font-weight: 600;
+        transition: var(--transition);
+        box-shadow: 0 4px 15px rgba(0, 119, 182, 0.3);
+    }
+
+    .cta-button.primary:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(0, 119, 182, 0.4);
+    }
+
+    .cta-button.secondary {
+        background: transparent;
+        color: var(--primary-color);
+        padding: 1rem 2rem;
+        border-radius: 2rem;
+        text-decoration: none;
+        font-weight: 600;
+        transition: var(--transition);
+        border: 2px solid var(--primary-color);
+    }
+
+    .cta-button.secondary:hover {
+        background: var(--primary-color);
+        color: white;
+        transform: translateY(-2px);
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+        .consultation-feature {
+            flex-direction: column;
+            text-align: center;
+            gap: 1rem;
+        }
+
+        .consultation-feature .feature-icon {
+            margin: 0 auto;
+        }
+
+        .cta-buttons {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .cta-button {
+            width: 100%;
+            max-width: 300px;
+            text-align: center;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .consultation-feature {
+            padding: 1.5rem;
+        }
+
+        .consultation-feature .feature-content h3 {
+            font-size: 1.1rem;
+        }
+
+        .consultation-feature .feature-content p {
+            font-size: 0.9rem;
+        }
+    }
+    </style>
     <a id="back-to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></a>
 </body>
 
